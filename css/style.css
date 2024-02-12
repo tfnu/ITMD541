@@ -1,35 +1,37 @@
 body, html {
     height: 100%;
-    margin: 0;
     font-family: Arial, sans-serif;
     background-color: white;
     color: white;
   }
   
   .name-container {
-    text-align: center;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    color:blue;
+    margin-top: 2%;
   }
   
   .bio-container {
     display: flex;
-    margin-top: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: calc(100% - 100px);
   }
 
   .outer-container {
     display: flex;
-    margin-top: 5%;
+    margin-top: 1%;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: calc(100% - 100px);
   }
   
   .outer-box {
     background-color: #3498db; /* Replace with your preferred color */
     padding: 20px;
+    margin-top: 1%;
   }
   
   .inner-box {
