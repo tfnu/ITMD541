@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: white;
+  }
+  
+  .name-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .bio-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 100px);
+  }
+
+  .outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 100px);
+  }
+  
+  .outer-box {
+    background-color: #3498db; /* Replace with your preferred color */
+    padding: 20px;
+  }
+  
+  .inner-box {
+    background-color: red; /* Replace with your preferred color */
+    padding: 20px;
+  }
+
+  .p-bio {
+    max-width: 800px; /* Adjust the value as needed */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+  }
+  
+  h1, p {
+    margin: 0;
+  }
+  
