@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <form id="tipCalculatorForm" class="tip-calculator">
+        <h4>ITMD 541 - Lab 3 - Tripti Sharma</h4>
+        <h1>Tip Calculator</h1>
+
+        <label for="billTotal">Bill Total:</label>
+        <input type="text" id="billTotal" placeholder="Enter total bill amount">
+
+        <label for="tipRange">Tip:</label>
+        <input type="range" id="tipRange" min="0" max="100" value="15">
+        <label for="tipPercentageValue">Tip Percentage:</label>
+        <input type="text" id="tipPercentageValue" value="15%" disabled>
+
+        <label for="tipAmount">Tip Amount:</label>
+        <input type="text" id="tipAmount" disabled>
+
+        <label for="totalBillWithTip">Total Bill with Tip:</label>
+        <input type="text" id="totalBillWithTip" disabled>
+    </form>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
